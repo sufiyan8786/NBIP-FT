@@ -1,0 +1,735 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>NetBanking</title>
+<link rel=stylesheet href=css/bootstrap.min.css>
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+<link rel=stylesheet href=css/royalslider.css>
+<link rel=stylesheet href=css/rs-minimal-white.css>
+<link href=css/style.css rel=stylesheet type=text/css>
+<link href=css/responsive.css rel=stylesheet type=text/css>
+<script src="https://assets.adobedtm.com/launch-EN703323d2205e439e8141b8d6113929b3.min.js"></script>
+<!--[if IE 7]><link rel=stylesheet type=text/css href=css/ie7.css /><![endif]-->
+<!--[if IE 8]><link rel=stylesheet type=text/css href=css/ie8.css /><![endif]-->
+<!--[if IE 9]><link rel=stylesheet type=text/css href=css/ie9.css /><![endif]-->
+<!--[if lte IE 9]>
+<script src=js/html5.js></script>
+<![endif]-->
+<style>
+.popup {
+	display:none;
+	background-color:#fff;
+	float:left;
+	position:absolute;
+	z-index: 100;
+	top:0;
+}
+.popup p {
+	font-size:1.2em;
+	padding:10px 0;
+	width:100%
+}
+.overlay {
+	display:none;
+	background-color:#000;
+	opacity:0.5;
+	width:100%;
+	height:100%;
+}
+.closeButton {
+	float: right;
+	position: relative;
+	top: 5px;
+	right: 5px;
+	cursor:pointer
+}
+.showBorder td {
+	border:1px solid #cfcfcf;
+	padding:5px 5px
+}
+</style>
+</head>
+<body>
+<script>
+(function(w,d,s,l,i){
+w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7RG59');
+</script>
+<div id=preloader></div>
+<div class="overlay"></div>
+<div class="external_popup"> <a href="javascript:void(0)" class="close"><img src="images/close-blue.png"></a>
+  <div class="pop_wrapper">
+    <p>This is to inform that by clicking on the link, the user shall enter a website which is not owned by HDFC Bank Limited ("HDFC Bank") but managed and owned by the merchant partner</p>
+    <a href="#" class="cancel btn btn-default redBtn pull-right">Cancel</a> <a href="#" class="proceed_btn btn btn-default redBtn pull-right">Proceed Further</a>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<div class=full_container>
+  <nav class="navbar navbar-default">
+    <div class=container>
+      <div class=navbar-header> <a class=navbar-brand href=http://www.hdfcbank.com/><img src=images/logo_hdfcbank.gif></a> </div>
+    </div>
+  </nav>
+  <div class=banner-section>
+    <div class=container>
+      <div class="sliderContainer fullWidth clearfix">
+	  
+	    <div id=full-width-slider class="royalSlider heroSlider rsMinW">
+		
+		<div class=rsContent id=slide3> <a href="https://bit.ly/Pzpayzapp" target="_blank"> <img src="images/PayZapp-Curefit-Offer-17920-NBIP-1200-222.jpg" class="vDesc"> <img src="images/PayZapp-Curefit-Offer-17920-NBIP-600-300.jpg" class="vMobile"> </a> </div>
+		
+		
+		<div class=rsContent id=slide3> <a href="https://www.hdfcbank.com/personal/useful-links/security/beware-of-fraud/sim-swap" target="_blank"> <img src="images/NBIP-1200x222-compressed.jpg" class="vDesc"> <img src="images/NBIP- Mobile-600x300-compressed.jpg" class="vMobile"> </a> </div>
+		
+		<div class=rsContent id=slide3> <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/easy-emi-shop/index.html?LGCode=MKTG&mc_id=website_organic_qls&promocode=website_organic_qls&pcode=website_organic_qls&promo_code=website_organic_qls" target="_blank"> <img src="images/1200x222new.jpg" class="vDesc"> <img src="images/600x300new.jpg" class="vMobile"> </a> </div>
+		<div class=rsContent id=slide3> <a href="https://offers.smartbuy.hdfcbank.com/offer_details/15617" target="_blank"> <img src="images/Debit-Card-Brief-ATL-NBIP-Desktop-1200X222.jpg" class="vDesc"> <img src="images/Mobile-login-page_600X300_Debit-Card-Brief-ATL.jpg" class="vMobile"> </a> </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class=rsContent id=slide3> <a href="https://www.hdfcbank.com/personal/save/my-passion-fund" target="_blank"> <img src="images/Passion-fund_NBIP-Desktop_1200-x-222.jpg" class="vDesc"> <img src="images/Passion-fund_1_NBIP-Mobile_600-x-300.jpg" class="vMobile"> </a> </div>
+		
+		
+		
+		
+		
+		
+		
+
+		
+		<div class=rsContent id=slide3> <a href="https://www.hdfcbank.com/personal/pay/money-transfer/remitnow/full-value-remittance" target="_blank"> <img src="images/FULL-VALUE_Homepage-banner_Desktop-NBIP_1200-x-222_A.jpg" class="vDesc"> <img src="images/FULL-VALUE_Mobile-NBIP_600-x-300_A.jpg" class="vMobile"> </a> </div>
+
+
+
+<div class=rsContent id=slide3> <a href="http://app.payzapp.in/" target="_blank"> <img src="images/PayZapp_NBIP_1200-x-222.jpg" class="vDesc"> <img src="images/1595325788687_PayZapp_SmartBuy_700-x-400.jpg" class="vMobile"> </a> </div>
+
+		
+		
+		<div class=rsContent id=slide3> <a href="https://getprepaidcard.hdfcbank.com/fastag/index.aspx?" target="_blank"> <img src="images/Fastag-Payzapp_NBIP_Desktop_1200X222.jpg" class="vDesc"> <img src="images/Fastag-Payzapp_Mob_NBIP_600X300.jpg" class="vMobile"> </a> </div>
+		
+		
+		
+		
+		
+		
+		
+		<div class=rsContent id=slide3> <a href="https://offers.smartbuy.hdfcbank.com/offer_details/15282" target="_blank"> <img src="images/SmartBuy-Refresh-Banners_NBIP-Desktop---1200-x-222-new.jpg" class="vDesc"> <img src="images/SmartBuy-Refresh-Banners_NBIP-–-600-x-300-new.jpg" class="vMobile"> </a> </div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class=rsContent id=slide3> <a href="https://apply.hdfcbank.com/vivid/pl_uiux_new?LGCode=Mktg&mc_id=website_organic_nbip_default#PL-Login" target="_blank"> <img src="images/PL-banner_PQ_NBIP_DeskTop_1200X222.jpg" class="vDesc"> <img src="images/PL-banner_PQ_NBIP-Mob_600X300.jpg" class="vMobile"> </a> </div>
+		
+		
+		
+		
+		
+		
+		
+
+			
+		
+			<div class=rsContent id=slide3> 
+			<a href="https://leads.hdfcbank.com/applications/webforms/apply/CC_term_loan_jumbo_loan/default.aspx?sourcecode=NBIP_BB_Insta " target="_blank">
+			<img src="images/1-LOC--Segment-2-NBIP_Desk_1200X222.gif" class="vDesc"> 
+			<img src="images/1-LOC--Segment-2-NBIP-Mob_600X300.gif" class="vMobile"> 
+			</a> 
+			</div>
+			
+			
+			
+			
+		
+		
+		
+		<!--<div class=rsContent id=slide3> <a href="https://v1.hdfcbank.com/htdocs/common/gold-sovereign-bonds/index.html" target="_blank"> <img src="images/Sovereign-Gold-Bonds-FEB-2020-NBIP-Desktop-1200-x-222.jpg" class="vDesc"> <img src="images/Sovereign-Gold-Bonds-FEB-2020-NBIP-mobile-600-x-300.jpg" class="vMobile"> </a> </div>-->
+		
+		
+		
+		
+			
+			
+		
+		
+   
+        </div>
+        <div class=banMobContent>
+          <!--<h2>#HoshiyarSinghKiHoshiyari</h2>-->
+          <table class="mytable marb10">
+            <tr>
+              <td><img src=images/bank_pwd.png class=padr10></td>
+              <td><p>Bank Password, Card PIN/CVV and OTP are keys to your wealth. <br/>
+                  Remember, never reveal those to anybody.</p></td>
+            </tr>
+          </table>
+          <div class=btn_holder> <a href=https://netbanking.hdfcbank.com/netbanking/  class="btn btn-default redBtn">Continue to NetBanking</a> <a href=# class="btn btn-default cleanBtn">Know more</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="pdtb25 text-center"> <a href=https://netbanking.hdfcbank.com/netbanking/  class="btn btn-default redBtn">Continue to NetBanking</a> </div>
+    <div class="col-md-12 relative-box">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper tab">
+          <div class="swiper-slide">
+            <div class="thumb-banner tablinks firstOffer" onclick="openOffer(event, 'firstBox')">
+              <h2>Personal Commute</h2>
+              <div class="imgthumb">
+                <img alt="" src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/Safe_Commutes.png">
+              </div>
+              <div class="thumb-details">
+                <div class="swiper-btn ">KNOW MORE</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="thumb-banner tablinks secondOffer"  onclick="openOffer(event, 'secondBox')">
+              <h2>Home Decor & Renovation</h2>
+              <div class="imgthumb">
+                <img alt="" src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/home_renovation.png">
+              </div>
+              <div class="thumb-details">
+                <div class="swiper-btn">KNOW MORE</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="thumb-banner tablinks thirdOffer"  onclick="openOffer(event, 'thirdBox')">
+              <h2>Top Offers For You</h2>
+              <div class="imgthumb">
+                <img alt="" src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/categories_sh/icon0.png">
+              </div>
+              <div class="thumb-details">
+                <div class="swiper-btn">KNOW MORE</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="thumb-banner tablinks fourthOffer" onclick="openOffer(event, 'fourthBox')">
+              <h2>Shop More</h2>
+              <div class="imgthumb">
+                <img alt="" src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/categories_sh/Apparels.png">
+              </div>
+              <div class="thumb-details">
+                <div class="swiper-btn">KNOW MORE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="col-md-12 bg-color">
+      <div id="firstBox" class="tabcontent">
+        <h1 class="tabular-heading">Personal Commute</h1>
+        <div class="offerSlider">
+          <div>
+            <div class="offer-tabular long-offerBox">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/car.png" alt="" class="img-responsive">
+              <h3 class="offerTitle">Auto loan</h3>
+              <p class="offer-details">50% off Processing Fee</p>
+              <p class="offer-list"> Zero Foreclosure Charges* </p>
+              <a href="https://apply.hdfcbank.com/vivid/al_uiux_new?LGCode=MKTG&mc_id=website_target_NBIP_scroll_default#AL_Login" class="btn-offerBox availRed bottom-Tnc">Avail Now</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular long-offerBox">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/two_wheeler_loan.png" alt="" class="img-responsive">
+              <h3 class="offerTitle">Two Wheeler loan</h3>
+              <p class="offer-details">Zero Processing Fee*</p>
+              <p class="offer-list"> Up to <span>25%</span> Lower EMI for the first 6 months^</p>
+              <a href="https://apply.hdfcbank.com/vivid/twl_newuiux?mc_id=website_target_NBIP_scroll_default#TWL_New_Login" class="btn-offerBox availRed bottom-Tnc">Avail Now</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="secondBox" class="tabcontent">
+        <h1 class="tabular-heading">Home Decor & Renovation</h1>
+        <div class="offerSlider">
+          <div>
+            <div class="offer-tabular long-offerBox">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/personal_loan.png" alt="" class="img-responsive">
+              <h3 class="offerTitle">Personal loan</h3>
+              <p class="offer-details">50% off Processing Fee</p>
+              <p class="offer-list"> EMI as low as <span>₹2149/lac</span> onwards</p>
+              <a href="https://apply.hdfcbank.com/vivid/pl_uiux_new?mc_id=website_target_NBIP_scroll_default#PL-Login" class="btn-offerBox availRed bottom-Tnc">Avail Now</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular long-offerBox">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/loanOn_creditCard.png" alt="" class="img-responsive">
+              <h3 class="offerTitle">Loan on Credit Cards</h3>
+              <p class="offer-details">Processing fee: ₹799 onwards</p>
+              <p class="offer-list">Money available <span>24*7</span></p>
+              <a href="https://leads.hdfcbank.com/applications/webforms/apply/CC_term_loan_jumbo_loan/default.aspx?sourcecode=&_ga=2.39056931.1651604565.1601875437-1489854635.1591086597" class="btn-offerBox availRed bottom-Tnc">Avail Now</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular long-offerBox">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/gold_loan.png" alt="" class="img-responsive">
+              <h3 class="offerTitle">Gold loan</h3>
+              <p class="offer-details">50% off Processing Fee</p>
+              <p class="offer-list">Loan up to <span>90%</span> of your gold value</p>
+              <a href="https://leads.hdfcbank.com/applications/new_webforms/apply/mobile/Gold-Loan.aspx?source_code=HMET&Promocode=Direct_FT_microsite_GL&LGCodeMKTG&_ga=2.25247421.1651604565.1601875437-1489854635.1591086597" class="btn-offerBox availRed bottom-Tnc">Avail Now</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular long-offerBox">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/home_loan.png" alt="" class="img-responsive">
+              <h3 class="offerTitle">Home loan</h3>
+              <p class="offer-details">Upto 50% off Processing Fee</p>
+              <p class="offer-list">Flat Processing Fee of <span>₹2,500# + applicable taxes</span> for select Government Employees</p>
+              <a href="https://leads.hdfcbank.com/applications/new_webforms/apply/mobile/Home-Loan-Indians.aspx?promocode=FT_microsite&sourcecode=Direct_FT_microsite&_ga=2.1249713.1651604565.1601875437-1489854635.1591086597" class="btn-offerBox availRed bottom-Tnc">Avail Now</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular long-offerBox">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/loans/loan_against_securities.png" alt="" class="img-responsive">
+              <h3 class="offerTitle">Loan Against Securities</h3>
+              <p class="offer-details">ROI 9.90% flat</p>
+              <p class="offer-list"><span>Flat 9.90%</span> Rate of Interest</p>
+              <a href="https://leads.hdfcbank.com/applications/webforms/apply/las/index.aspx?promocode=FT_microsite&sourcecode=Direct_FT_microsite&_ga=2.39056931.1651604565.1601875437-1489854635.1591086597" class="btn-offerBox availRed bottom-Tnc">Avail Now</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="thirdBox" class="tabcontent">
+        <h1 class="tabular-heading">Top Offers For You</h1>
+        <div class="offerSlider">
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/online/Pepperfry.png" alt="" class="img-responsive small-logoOffer">
+              <p class="offer-details">Up to 5% Instant Discount + No Cost EMI</p>
+              <a href="https://www.pepperfry.com/" class="btn-offerBox availRed">Avail Now</a>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offer_details.html?category=home_essentials&OID=7" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/online/Tata Cliq - Luxury.png" alt="" class="img-responsive small-logoOffer">
+              <p class="offer-details">10% Instant Discount</p>
+              <a href="https://luxury.tatacliq.com/" class="btn-offerBox availRed">Avail Now</a>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offer_details.html?category=apparels&OID=6" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/online/Big-Basket.png" alt="" class="img-responsive small-logoOffer">
+              <p class="offer-details">5% Instant Discount</p>
+              <a href="https://www.bigbasket.com/" class="btn-offerBox availRed">Avail Now</a>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offer_details.html?category=grocery&OID=4" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/online/Swiggy.png" alt="" class="img-responsive small-logoOffer">
+              <p class="offer-details">15% Instant Discount</p>
+              <a href="https://swiggy.com/" class="btn-offerBox availRed">Avail Now</a>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offer_details.html?category=food_beverage&OID=11" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="fourthBox" class="tabcontent">
+        <h1 class="tabular-heading">Shop More</h1>
+        <div class="offerSlider">
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/categories_sh/Apparels.png" alt="" class="img-responsive shop-logo">
+              <p class="offer-details">Apparels</p>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offerlist.html?category=apparels" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/categories_sh/Grocery.png" alt="" class="img-responsive shop-logo">
+              <p class="offer-details">Grocery</p>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offerlist.html?category=grocery" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/categories_sh/Watch_Accessories.png" alt="" class="img-responsive shop-logo">
+              <p class="offer-details">Watch & Accessories</p>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offerlist.html?category=watch_accessories" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+          <div>
+            <div class="offer-tabular">
+              <img src="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/images/categories_sh/Home_Essentials.png" alt="" class="img-responsive shop-logo">
+              <p class="offer-details">Home Essentials</p>
+              <a href="https://v1.hdfcbank.com/htdocs/common/2020/sept/festivetreat/offerlist.html?category=home_essentials" class="btn-offerBox">Know More</a>
+              <p class="offerTnC">T&amp;C Apply</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=impMsgs>
+      <h5>Important Messages</h5>
+      <ul class="check"> 
+	  <!--<li>We are sorry!  HDFC Bank Historical Statement on NetBanking won't be available till 3 pm for Today (March 02, 2020).</li>-->
+	  
+	 <!--<li>UPDATE: Due to scheduled maintenance HDFC Bank NetBanking/MobileBanking & Online shopping services will be unavailable from 01:00 AM to 04:00 AM on Feb 18, 2020. Sincere apologies for any inconvenience caused.</li>
+		<li>UPDATE: We are sorry!  Debit Card related services, IPIN Regeneration, TPT Registration/Limit modification won't be available on HDFC Bank NetBanking/Mobile Banking on 12th February 2020 and 19th February 2020 from 00:30 - 03:30 Hrs</li> -->
+	  <li>New procedure proposed by Central Board of Indirect Taxes & Customs (CBIC) for Payment of Central Excise and Service Tax.</li>
+<li>Please note that under the Foreign Exchange Management Act (FEMA), 1999, Indian residents are prohibited from trading in foreign exchange overseas through electronic/internet trading portals.  If such transactions are noted on your credit / debit / forex card or online / mobile banking, we will be constrained to close your card / account held with us and report the same to the regulator.</li>
+
+       <!-- <li>Revision in Service Charges effective 1st Nov 2017 .  Please <a href="/assets/pdf/Notice_board.pdf" target="_blank">click here</a> for more details.</li>--> 
+      </ul>
+    </div> 
+  </div> 
+  <div class="section padb0">
+    <div class="container text-center">
+      <div class=row>
+        <div class="col-md-3 col-sm-6">
+          <div class=benefits> <img src=images/cards.png>
+            <h6>Credit Card</h6>
+            <br/>
+            <p>Apply for Credit Card now through NetBanking.</p>
+            <a href=https://apply.hdfcbank.com/vivid/ccuiux_new?mc_id=website_organic_nbip_default_cc ?src=NB_logout_pg class="btn btn-default moreBtn">Know more</a> </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class=benefits> <img src=images/home.png>
+            <h6>Instant Home Loan Approved</h6>
+            <br/>
+            <p>Get instant Home Loan approved in minutes.</p>
+            <a href=https://home-loans.hdfc.com/wl1?WT.mc_id=website_organic_nbip_homeloan class="btn btn-default moreBtn">Apply Now</a> </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class=benefits> <img src=images/wallet.png>
+            <h6>Instant E-Approval for Personal Loan</h6>
+            <br/>
+            <p>Instant E-Approval for Personal Loan-upto Rs 40 lac.</p>
+            <a href=https://apply.hdfcbank.com/vivid/pl_uiux_new?LGCode=Mktg&mc_id=website_organic_nbip_default#PL-Login class="btn btn-default moreBtn">Apply now</a> </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class=benefits> <img src=images/umbrella.png>
+            <h6>Buy Insurance</h6>
+            <br/>
+            <p>Buy Insurance the easy way with NetBanking!</p>
+            <a href=https://www.hdfcbank.com/htdocs/common/NetBanking/product/convenience.html class="btn btn-default moreBtn">Know more</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pdtb25 text-center"> <a href=https://netbanking.hdfcbank.com/netbanking/  class="btn btn-default redBtn">Continue to NetBanking</a> </div>
+  <div class=section>
+    <div class=container>
+      <div class=info>
+        <table class=mytable>
+          <tr>
+            <td><img src=images/privacy.png></td>
+            <td>Do not share your internet banking username/password or Credit/Debit Card number/CVV/OTP via e-mail or over the phone</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class=section>
+    <div class=container>
+      <div class=info>
+        <table class="mytable h50">
+          <tr>
+            <td style="vertical-align:top"><img src=images/pin.png></td>
+            <td><a href="https://netbanking.hdfcbank.com/netbanking/IpinResetUsingOTP.htm">Regenerate</a> your NetBanking IPIN (Password) online instantly by using one of the two methods - OTP sent to your registered mobile number and Debit Card details OR OTP sent to your registered mobile number and email id (not applicable for senior citizen customers).<br>
+              <br>
+              <a href="https://netbanking.hdfcbank.com/netbanking/registrationUsingOTP.htm">Register</a> for NetBanking online instantly with the help of OTP sent to your registered mobile number and Debit Card details. </td>
+          </tr>
+          <tr>
+            <td><img src=images/browser.png></td>
+            <td><a href="https://v1.hdfcbank.com/htdocs/common/onlineservices/NB-Browser.htm">Browser Requirements for NetBanking & Website</a></td>
+          </tr>
+          <tr>
+            <td><img src=images/duster.png></td>
+            <td><a href="https://v1.hdfcbank.com/htdocs/common/onlineservices/clearing_catche.htm">Clearing Browser Cache</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class=footer>
+    <div class=container>
+      <div class=row>
+        <div class=col-sm-6>
+          <ul class=foot_links>
+            <li><a href=https://www.hdfcbank.com/personal/useful-links/privacy>Privacy</a></li>
+            <li class=dash> | </li>
+            <li><a href=https://www.hdfcbank.com/personal/useful-links/security</a></li>
+            <li class=dash> | </li>
+            <li><a href=https://www.hdfcbank.com/personal/useful-links/terms-and-conditions>Website Usage Terms</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 text-right">
+          <p>&copy; HDFC Bank Ltd. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='popup' id='popup' style='width:60%;height:auto;'>
+  <div class='closeButton'><img src='/assets/images/close_button.png'/></div>
+  <div class="info">
+    <p>Details of the PhoneBanking numbers and Cities are as follows: </p>
+    <table class="mytable h50 showBorder">
+      <tbody>
+        <tr>
+          <td><strong>Cities</strong></td>
+          <td><strong>PhoneBanking Number</strong></td>
+        </tr>
+        <tr>
+          <td>Mumbai / Delhi & NCR / Chennai / Bangalore / Kolkata / Ahmedabad / Pune / Hyderabad</td>
+          <td>6160 6161 (City STD code to be pre-fixed)</td>
+        </tr>
+        <tr>
+          <td>Chandigarh / Jaipur / Lucknow / Indore / Kochi </td>
+          <td>6160 616 (City STD code to be pre-fixed)</td>
+        </tr>
+        <tr>
+          <td>All other locations* </td>
+          <td>1860 267 6161</td>
+        </tr>
+        <tr>
+          <td colspan='2'><em>*existing numbers for these locations will be discontinued effective 5th April.</em> </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class='overlay'></div>
+<script src=js/jquery.min.js type=text/javascript></script>
+<script src=js/bootstrap.min.js type=text/javascript></script>
+<script src=js/html5.js type=text/javascript></script>
+<script src=js/jquery.royalslider.min.js></script>
+<script src=js/ie7css3Support.js type=text/javascript></script>
+<script src=js/common.js type=text/javascript></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/slick.js"></script>
+<script>$(document).ready(function(){$("#full-width-slider").royalSlider({loop:true,autoPlay:{enabled:true,pauseOnHover:false,delay:4000},keyboardNavEnabled:true,controlsInside:false,arrowsNav:true,arrowsNavAutoHide:false,controlNavigation:"bullets",thumbsFitInViewport:false,navigateByClick:false,sliderDrag:false,touch:true,transitionType:"move",globalCaption:false,block:{fadeEffect:false,moveEffect:"right"}});var a=$("#full-width-slider").data("royalSlider");a.ev.on("rsAfterSlideChange",function(d){var e=a.currSlide;console.log(e);var c=$(e.content[0]).find(".rsABlock").html();var b=$(window).width();if(b<767){$( ".banMobContent").html(c)}})
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.showPopUp').click(function(){			
+		var marginTop = $(window).height()-$($(this).attr('href')).height();		
+		var marginLeft = $(window).width()-$($(this).attr('href')).width();
+		$($(this).attr('href')).css({'margin-left':marginLeft/2,'margin-top':marginTop/2});
+		$($(this).attr('href')).show();
+		$('.overlay').show();	
+	}) 
+	$('.closeButton').click(function(){
+		$(this).parent().hide();
+		$('.overlay').hide();		
+	})	
+});
+
+
+// SWIPER SLIDER INITIALIZATION
+var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        },
+      },
+      on: {
+        init: function() {
+          checkArrow();
+          checkPagination();
+        },
+        resize: function () {
+          checkArrow();
+          checkPagination();
+        }
+      }
+    });
+
+
+    function checkArrow() {
+      var swiperPrev = document.querySelector('.swiper-button-prev');
+      var swiperNext = document.querySelector('.swiper-button-next');
+      if ( window.innerWidth < 1024  ) {
+        //console.log('Success', window.innerWidth);
+        swiperPrev.style.display = 'block';
+        swiperNext.style.display = 'block';
+      } else {
+        swiperPrev.style.display = 'none';
+        swiperNext.style.display = 'none';
+      }
+    };
+
+    function checkPagination() {
+      var swiperPagination = document.querySelector('.swiper-pagination');
+      if ( window.innerWidth < 1024  ) {
+        //console.log('Success', window.innerWidth);
+        swiperPagination.style.display = 'block';
+      } else {
+        swiperPagination.style.display = 'none';
+      }
+    };
+    
+
+    // TAB CODE
+    function openOffer(evt, offerName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+      
+    }
+    document.getElementById(offerName).style.display = "block";
+    evt.currentTarget.className += " active";
+
+  //   activeLink.addEventListener('click', function(){
+  //     console.log('Working!');
+  //   // window.location.href='#thirdBox';
+  // });
+
+    // let activeBtn = document.querySelector('.tablinks').classList;
+    // let mainDiv = document.querySelector('.thumb-banner');
+    // if(activeBtn.contains('active')){
+    //   //console.log('Btn is taking class');
+    //   mainDiv.style.backgroundColor = 'red';
+    // };
+
+    
+    // Slick Slider
+    $(document).ready(function(){
+      $('.offerSlider').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        arrows: true,
+        refresh: true,
+        autoplay: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 320,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          }
+        ]
+      });
+    });
+
+  }; 
+
+  //INNER TAB SLIDER
+  $('.tablinks').click(function(){
+    $('.offerSlider').slick('setPosition');
+  });
+
+   let scrollTab = document.querySelectorAll('.thumb-banner');
+
+  // Scroll Animation
+
+  $(".firstOffer").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#firstBox").offset().top},
+          'slow');
+  });
+  $(".secondOffer").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#secondBox").offset().top},
+          'slow');
+  });
+  $(".thirdOffer").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#thirdBox").offset().top},
+          'slow');
+  });
+  $(".fourthOffer").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#fourthBox").offset().top},
+          'slow');
+  });
+  
+
+  // Get the element with id="defaultOpen" and click on it
+  //document.getElementById("defaultOpen").click();
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+</body>
+</html>
+
